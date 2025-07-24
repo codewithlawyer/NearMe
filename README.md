@@ -4,7 +4,7 @@ Bu repository, NearMe uygulamasının resmi web sitesini içerir. Site, GitHub P
 
 ## 🌐 Site Adresi
 
-**https://[kullanıcı-adınız].github.io/nearmeapp-website/**
+**https://codewithlawyer.github.io/NearMe/**
 
 ## 📱 NearMe Uygulaması
 
@@ -59,7 +59,7 @@ NearMe, yakındaki kişilerle tanışmayı sağlayan bir sosyal medya uygulamas�
 1. Repository'yi klonlayın:
 
 ```bash
-git clone https://github.com/[kullanıcı-adınız]/nearmeapp-website.git
+git clone [https://codewithlawyer.github.io/NearMe/]
 ```
 
 2. GitHub Pages'i etkinleştirin:
