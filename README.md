@@ -20,6 +20,7 @@ NearMe, yakındaki kişilerle tanışmayı sağlayan bir sosyal medya uygulamas�
 ### İndirme
 
 - **App Store:** [NearMe](https://apps.apple.com/app/nearme)
+- **Google Play:** Yakında (Play Store onayı bekleniyor)
 
 ## 📄 Sayfalar
 
@@ -46,6 +47,13 @@ NearMe, yakındaki kişilerle tanışmayı sağlayan bir sosyal medya uygulamas�
 - Sık sorulan sorular
 - Teknik destek
 - İletişim bilgileri
+
+### Hesap Silme (`account-deletion.html`)
+
+- KVKK/GDPR uyumlu hesap silme talimatları
+- Veri silme süreçleri
+- Kısmi veri silme seçenekleri
+- Yasal bilgiler ve destek
 
 ## 🎨 Tasarım
 
@@ -83,21 +91,33 @@ git push origin main
 
 ## 🔗 App Store Bağlantıları
 
-Bu site, App Store Connect'te aşağıdaki URL'leri kullanmak için hazırlanmıştır:
+Bu site, App Store Connect ve Google Play Console'da aşağıdaki URL'leri kullanmak için hazırlanmıştır:
 
-- **App Store Support URL:** `https://[kullanıcı-adınız].github.io/nearmeapp-website/support.html`
-- **Marketing URL:** `https://[kullanıcı-adınız].github.io/nearmeapp-website/`
-- **Privacy Policy URL:** `https://[kullanıcı-adınız].github.io/nearmeapp-website/privacy.html`
+- **Marketing URL:** `https://codewithlawyer.github.io/NearMe/`
+- **Privacy Policy URL:** `https://codewithlawyer.github.io/NearMe/privacy.html`
+- **Terms of Service URL:** `https://codewithlawyer.github.io/NearMe/terms.html`
+- **Support URL:** `https://codewithlawyer.github.io/NearMe/support.html`
+- **Account Deletion URL:** `https://codewithlawyer.github.io/NearMe/account-deletion.html`
 
 ## 📞 İletişim
 
-- **E-posta:** support@nearmeapp.com
+- **E-posta:** appbynearme@gmail.com
+- **Destek E-posta:** support@nearmeapp.com
 - **Şirket:** NEAR ME MOBIL YAZILIM VE BILISIM TICARET ANONIM SIRKETI
 
 ## 📄 Lisans
 
-© 2024 NearMe. Tüm hakları saklıdır.
+© 2025 NearMe. Tüm hakları saklıdır.
 
----
+## 🔒 Güvenlik ve Gizlilik
 
-**Not:** Site URL'lerini kendi GitHub kullanıcı adınızla değiştirmeyi unutmayın.
+- **KVKK Uyumlu:** Türkiye Kişisel Verilerin Korunması Kanunu
+- **GDPR Uyumlu:** Avrupa Genel Veri Koruma Yönetmeliği
+- **Hesap Silme:** Kullanıcılar hesap ve verilerini silebilir
+- **Veri Şifreleme:** Tüm veriler şifrelenmiş olarak aktarılır
+
+## 🚀 Güncellemeler
+
+- **2025:** Google Play Store hazırlığı
+- **2024:** App Store yayını
+- **2024:** Web sitesi oluşturuldu
