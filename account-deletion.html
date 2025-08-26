@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hesap Silme - NearMe</title>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .logo {
+        font-size: 2em;
+        color: #950041;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .title {
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .section {
+        margin-bottom: 30px;
+        padding: 20px;
+        background: #f9f9f9;
+        border-radius: 8px;
+      }
+      .section h3 {
+        color: #950041;
+        margin-top: 0;
+      }
+      .steps {
+        list-style: none;
+        padding: 0;
+      }
+      .steps li {
+        margin-bottom: 15px;
+        padding-left: 30px;
+        position: relative;
+      }
+      .steps li:before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: #950041;
+        font-weight: bold;
+      }
+      .warning {
+        background: #fff3cd;
+        border: 1px solid #ffeaa7;
+        color: #856404;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 20px 0;
+      }
+      .contact {
+        background: #d1ecf1;
+        border: 1px solid #bee5eb;
+        color: #0c5460;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 20px 0;
+      }
+      .data-types {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+        margin: 20px 0;
+      }
+      .data-type {
+        background: white;
+        padding: 15px;
+        border-radius: 5px;
+        border-left: 4px solid #950041;
+      }
+      .data-type h4 {
+        margin: 0 0 10px 0;
+        color: #950041;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">NearMe</div>
+        <h1 class="title">Hesap Silme Talep Sayfası</h1>
+      </div>
+
+      <div class="section">
+        <h3>Hesabınızı Silme Adımları</h3>
+        <ol class="steps">
+          <li>NearMe uygulamasını açın</li>
+          <li>Profil sayfasına gidin</li>
+          <li>"Hesap İşlemleri" bölümüne gidin</li>
+          <li>"Hesabımı Sil" butonuna tıklayın</li>
+          <li>Şifrenizi girin (e-posta/şifre ile kayıt olduysanız)</li>
+          <li>Silme işlemini onaylayın</li>
+        </ol>
+      </div>
+
+      <div class="warning">
+        <strong>⚠️ Önemli:</strong> Hesap silme işlemi geri alınamaz. Tüm
+        verileriniz kalıcı olarak silinecektir.
+      </div>
+
+      <div class="section">
+        <h3>Silinen Veri Türleri</h3>
+        <div class="data-types">
+          <div class="data-type">
+            <h4>Kişisel Bilgiler</h4>
+            <p>İsim, e-posta, doğum tarihi, cinsiyet</p>
+          </div>
+          <div class="data-type">
+            <h4>Profil Verileri</h4>
+            <p>Profil fotoğrafı, sosyal medya hesapları</p>
+          </div>
+          <div class="data-type">
+            <h4>Konum Verileri</h4>
+            <p>GPS koordinatları, geohash bilgileri</p>
+          </div>
+          <div class="data-type">
+            <h4>Kullanım Verileri</h4>
+            <p>Profil görüntülemeleri, bildirim ayarları</p>
+          </div>
+          <div class="data-type">
+            <h4>Teknik Veriler</h4>
+            <p>Push token, cihaz bilgileri, oturum verileri</p>
+          </div>
+          <div class="data-type">
+            <h4>Etkileşim Verileri</h4>
+            <p>Engelleme listesi, şikayet verileri</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>Veri Saklama Süresi</h3>
+        <p>Hesap silme işlemi tamamlandıktan sonra:</p>
+        <ul>
+          <li>
+            <strong>Anında silinen veriler:</strong> Kişisel bilgiler, profil
+            verileri, konum verileri
+          </li>
+          <li>
+            <strong>30 gün içinde silinen veriler:</strong> Kullanım
+            istatistikleri, teknik loglar
+          </li>
+          <li>
+            <strong>90 gün içinde silinen veriler:</strong> Yedek veriler,
+            sistem logları
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Kısmi Veri Silme</h3>
+        <p>Hesabınızı silmeden önce belirli verilerinizi silebilirsiniz:</p>
+        <ul>
+          <li>
+            <strong>Profil bilgileri:</strong> Profil sayfasından
+            düzenleyebilirsiniz
+          </li>
+          <li>
+            <strong>Bildirim ayarları:</strong> Profil sayfasından
+            kapatabilirsiniz
+          </li>
+          <li>
+            <strong>Konum verileri:</strong> Uygulama ayarlarından konum iznini
+            kapatabilirsiniz
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h3>Yardım ve Destek</h3>
+        <p>Hesap silme işlemi ile ilgili sorularınız için:</p>
+        <p><strong>E-posta:</strong> support@nearmeapp.com</p>
+        <p>
+          <strong>Uygulama içi:</strong> Profil sayfasından "Yardım" bölümüne
+          gidin
+        </p>
+      </div>
+
+      <div class="section">
+        <h3>Yasal Bilgiler</h3>
+        <p>
+          Bu hesap silme sistemi KVKK (Kişisel Verilerin Korunması Kanunu) ve
+          GDPR (Genel Veri Koruma Yönetmeliği) gerekliliklerine uygun olarak
+          tasarlanmıştır.
+        </p>
+        <p>Hesap silme talebiniz 30 gün içinde işleme alınacaktır.</p>
+      </div>
+    </div>
+  </body>
+</html>
